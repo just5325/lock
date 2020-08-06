@@ -1,0 +1,23 @@
+{
+    "name": "hcg/lock",
+    "description": "Redis并发锁",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HuangCuiGang",
+            "email": "532508307@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lock\\": "src/",
+            "Lock\\Lock\\": "src/Lock"
+        }
+    }
+}
