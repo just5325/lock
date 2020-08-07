@@ -1,3 +1,5 @@
+# 注意,这个包原版是https://github.com/zhaocong6/lock,自用学习包
+
 # 环境要求
     
     1.PHP >= 7
